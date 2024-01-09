@@ -36,5 +36,6 @@ public class Main {
         for (Topping topping : toppings) {
             String formattedCost = String.format("%.2f", topping.getCost());
             System.out.println(topping.getName() + ": $" + formattedCost + " (Allergen Count: " + topping.getAllergens().size() + ")");
+        }
     }
-}}
+}
